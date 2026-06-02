@@ -256,65 +256,100 @@ h3 {
  }
 
  .skill {
-    display: flex;  
-        background: black;
+    background: black;
     width: 100%;
-    padding: 100px;
- }
- .skill-bar{
-    right: 60%;
+    padding: 100px 0;
+}
+
+.skill .title h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skill .box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-bar {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
- }
- .skill-bar p{
+}
+
+.skill-bar p {
     text-align: left;
- }
+    margin-top: 10px;
+}
 
- .skill-box {
-    display: flex;
-    text-align: center;;
+.skill-box {
     width: 100%;
+    height: 20px;
     background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
- }
- .editing{
+/* skill */
+.editing {
     width: 70%;
+    height: 100%;
     background-color: red;
+    text-align: center;
+}
 
- }
- .design {
+.design {
     width: 60%;
-background-color: red;
- }
- .fhotografi {
-    width: 65%;
+    height: 100%;
     background-color: red;
- }
- .videografi {
+    text-align: center;
+}
+
+.voli {
     width: 60%;
+    height: 100%;
     background-color: red;
- }
- .sd{
+    text-align: center;
+}
+
+.futsal {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+/* pendidikan */
+.sd {
     width: 100%;
+    height: 100%;
     background-color: red;
+    text-align: center;
+}
 
- }
- .smp{
+.smp {
     width: 100%;
+    height: 100%;
     background-color: red;
+    text-align: center;
+}
 
- }
- .smk{
-    width: 90%;
+.smk {
+    width: 100%;
+    height: 100%;
     background-color: red;
+    text-align: center;
+}
 
- }
- .kuliah{
-    width: 0%;
-    background-color:wheat;
-
- }
+.kuliah {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+}
  .contact-me {
     width: 100%;
     padding: 100px 0;
